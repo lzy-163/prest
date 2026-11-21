@@ -104,4 +104,4 @@ jobs:
       - name: Upload coverage
         uses: codecov/codecov-action@v2
         with:
-          file: ./coverage.out
+          files: ./coverage.out
